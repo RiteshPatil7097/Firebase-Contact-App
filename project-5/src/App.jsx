@@ -61,8 +61,10 @@ function App() {
                      )
                   )}
          </div>
+         
       </div>
       <AddAndUpdateContact isOpen={isOpen} onClose={onClose}/>
+      
     </>
   )
 }
