@@ -10,16 +10,14 @@ const Modal = ({isOpen,onClose,children}) => {
     {
         isOpen && 
         <>
-            <div className='mx-auto relative z-50 min-h-[250px] max-w-[340px] bg-white'>
-                <div className='flex justify-end'>
-                    <AiOutlineClose onClick={onClose} className='text-2xl self-end'/>
+            <div className='grid place-content-center-safe absolute top-0 backdrop-blur-xs z-40  h-screen w-screen'>
+                <div className='mx-auto relative z-50 min-h-[250px] max-w-[340px] bg-white'>
+                    <div className='flex justify-end'>
+                        <AiOutlineClose onClick={onClose} className='text-2xl self-end'/>
+                    </div>
+                    {children}
                 </div>
-                {children}
             </div>
-            <div
-               onClick={onClose}
-               className=' absolute top-0 backdrop-blur-xs z-40 h-screen w-screen'
-            />
         </>
     } 
   </>,
