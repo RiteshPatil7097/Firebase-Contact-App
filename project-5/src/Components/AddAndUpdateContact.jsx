@@ -1,7 +1,7 @@
 import React from 'react'
 import Modal from './Modal'
 import {Formik,Form, Field, ErrorMessage} from "formik"
-import {addDoc,collection, doc } from 'firebase/firestore'
+import {addDoc,collection, doc,updateDoc } from 'firebase/firestore'
 import {db} from "../config/firebase"
 import { toast } from 'react-toastify'
 import * as YUP from "yup"
