@@ -26,3 +26,7 @@ project-5/
 ├── tailwind.config.js
 ├── vite.config.js
 └── README.md
+
+
+<img width="1876" height="917" alt="Image" src="https://github.com/user-attachments/assets/17890c3d-b3bf-4125-8a38-3fe8dccb03b2" />
+
